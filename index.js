@@ -4,13 +4,21 @@ document.getElementById('title').style.textAlign ='center';
 document.getElementById('title').style.fontSize = '60px';
 
 document.getElementById('fruits').style.marginLeft = '45%'
+document.getElementById('fruits').style.color = 'red'
+
 document.getElementById('vegetables').style.marginLeft = '45%'
-document.getElementById('vegetables').stylele
+document.getElementById('vegetables').style.color = 'red'
 
 document.getElementById('sell').style.textAlign = 'center'
+document.getElementById('sell').style.fontFamily = 'Georgia'
+
 
 document.getElementById('up').style.textTransform = ('uppercase');
+document.getElementById('up').style.color = ('darkgreen');
+
 document.getElementById('down').style.textTransform = ('uppercase');
+document.getElementById('down').style.color = ('darkgreen');
+
 document.getElementById('up').style.textAlign = 'center'
 
 
@@ -30,12 +38,6 @@ console.log({child});
 
 
 
-let image = document.createElement('img');
-image.src = 'image/veges1.jpg';
-image.style.width = '60%'
-image.style.marginLeft = '40%'
-image.marginTop = '-28'
-document.body.appendChild(image);
 
 
 
